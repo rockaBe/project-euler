@@ -1,14 +1,12 @@
 const primeHelpers = require('./helpers/prime');
 
-let primeArray = [2];
-let counter = 3;
+let primeArray = [];
+let counter = 2;
 const goal = 10001;
 
 while (primeArray.length < goal) {
   if (primeHelpers.isPrime(counter)) {
     primeArray.push(counter);
-    console.log('primeArray.last => ', primeArray[primeArray.length-1])
-    console.log('primeArray.length: ', primeArray.length);
   }
   counter++;
 }
