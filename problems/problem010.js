@@ -1,4 +1,4 @@
-const primeHelpers = require('./helpers/prime');
+const primeHelpers = require('../helpers/prime');
 
 const limit = 2000000;
 let primeArray = [];

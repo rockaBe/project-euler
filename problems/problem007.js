@@ -1,4 +1,4 @@
-const primeHelpers = require('./helpers/prime');
+const primeHelpers = require('../helpers/prime');
 
 let primeArray = [];
 let counter = 2;

@@ -1,4 +1,4 @@
-const arrayHelpers = require('./helpers/array');
+const arrayHelpers = require('../helpers/array');
 
 const startNum = 1;
 const finalNum = 20;
